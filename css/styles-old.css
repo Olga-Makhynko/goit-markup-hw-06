@@ -6,14 +6,11 @@
 }
 
 .nav-page {
-  display: flex;
   justify-content: space-between;
-  align-items: center;
   padding-left: 15px;
   padding-right: 15px;
 }
 .header-logo {
-  padding: 24px 0;
   margin-right: 76px;
 }
 
