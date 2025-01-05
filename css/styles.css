@@ -78,15 +78,14 @@ button {
 
 .header-page {
   border-bottom: 1px solid #e7e9fc;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 1px 6px rgba(46, 47, 66, 0.08);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #fff;
-    z-index: 998;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 998;
 }
 
 .heder-container {
@@ -139,8 +138,6 @@ button {
 
   .nav-list {
     display: flex;
-    
-    
   }
 
   .nav-page {
@@ -149,7 +146,6 @@ button {
   }
 
   .header-logo {
-    
     margin-right: 120px;
   }
 
@@ -346,11 +342,11 @@ button {
 
 .mobile-links {
   font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 120%;
-    letter-spacing: 0.02em;
-    color: #434455;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 @media screen and (min-width: 768px) {
@@ -362,7 +358,6 @@ button {
 
 /* #region Hero */
 .hero {
-  
   background-position: center center;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -390,13 +385,13 @@ button {
 
 .hero .main-title {
   font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
-    max-width: 216px;
-    margin: 0 auto;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  max-width: 216px;
+  margin: 0 auto;
 }
 
 .hero-btn {
@@ -428,7 +423,6 @@ button {
 
 @media screen and (min-width: 768px) {
   .hero {
-    
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -439,17 +433,15 @@ button {
     max-width: 768px;
   }
 
-        .hero .main-title {
-      font-size: 56px;
-      line-height: 1.07;
-      max-width: 496px;
-    }
+  .hero .main-title {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+  }
 
-        .hero-btn {
-          margin-top: 36px;
-        }
-
-
+  .hero-btn {
+    margin-top: 36px;
+  }
 
   @media (min-resolution: 192dpi) {
     .hero {
@@ -462,13 +454,11 @@ button {
     }
   }
 
-    .header-section .page-tittle {
-      font-size: 56px;
-      line-height: 1.07;
-      max-width: 496px;
-    }
-
-   
+  .header-section .page-tittle {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -494,7 +484,6 @@ button {
         url(../images/all-page/officepage2x.jpg);
     }
   }
-
 }
 
 /* #endregion */
@@ -514,7 +503,10 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 72px;
-  
+}
+
+.info-title {
+  text-align: center;
 }
 
 .section-cont-title {
@@ -533,8 +525,6 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
-
 
 .title-card {
   font-weight: 500;
@@ -572,14 +562,9 @@ button {
 
   .section-hero {
     padding-top: 120px;
-      padding-bottom: 120px;
+    padding-bottom: 120px;
   }
 }
-
-
-
-
-
 
 .icon {
   display: flex;
@@ -764,7 +749,7 @@ button {
 
   .section-our-team {
     padding-top: 120px;
-      padding-bottom: 120px;
+    padding-bottom: 120px;
   }
 }
 /* #endregion */
@@ -772,16 +757,16 @@ button {
 
 .section-portfolio {
   font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    margin-bottom: 72px;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 72px;
 }
 .our-portfolio {
   padding-top: 96px;
-    padding-bottom: 96px;
+  padding-bottom: 96px;
 }
 
 .our-port-list {
@@ -860,7 +845,7 @@ button {
 
   .our-portfolio {
     padding-top: 96px;
-      padding-bottom: 96px;
+    padding-bottom: 96px;
   }
 }
 /* #endregion */
@@ -923,13 +908,13 @@ button {
 
 .footer-page .icon-list {
   display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #4D5AE5;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-box {
   font-weight: 500;
@@ -1107,26 +1092,26 @@ button {
 
 .modal-form .modal-form-btn {
   display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    cursor: pointer;
-    border: none;
-    border-radius: 4px;
-    padding: 8px 24px;
-    min-width: 165px;
-    height: 40px;
-    font-weight: 500;
-    font-size: 16px;
-    color: #fff;
-    background: #4D5AE5;
-    letter-spacing: 0.04em;
-    line-height: 1.5;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 24px;
+  min-width: 165px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  background: #4d5ae5;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 0 auto;
 }
 .modal-form .modal-form-btn:hover {
-background-color: #404bbf;
+  background-color: #404bbf;
 }
 
 .modal-text {
