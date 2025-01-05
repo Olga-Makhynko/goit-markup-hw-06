@@ -25,8 +25,7 @@
       <div class="container heder-container">
         <nav class="nav-page">
           <a class="logo header-logo" href="./index.html"
-            >Web
-            <span class="logo-style">Studio </span>
+            >Web<span class="logo-style">Studio</span>
           </a>
           <ul class="nav-list">
             <li>
@@ -48,20 +47,22 @@
               >
             </li>
             <li>
-              <a class="address-link" href="tel:+110001111111">+110001111111</a>
+              <a class="address-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
             </li>
           </ul>
         </address>
-        <button class="burger-btn" type="button">
+        <button class="burger-btn" type="button" id="burger-btn">
           <svg class="burger-icon" width="24" height="24">
             <use href="./images/icons.svg#burger-icon"></use>
           </svg>
         </button>
       </div>
       <!-- #region Mobile menu -->
-      <div class="mobile-menu">
+      <div class="mobile-menu" id="mobile-menu">
         <div class="container mobile-menu-container">
-          <button class="mobile-close-btn" type="button">
+          <button class="mobile-close-btn" type="button" id="mobile-close-btn">
             <svg class="mobile-close-icon" width="8" height="8">
               <use href="./images/icons.svg#close"></use>
             </svg>
@@ -133,7 +134,9 @@
       <section class="hero">
         <div class="container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
-          <button class="hero-btn" type="button">Order Service</button>
+          <button class="hero-btn" type="button" id="hero-btn">
+            Order Service
+          </button>
         </div>
       </section>
       <!-- #endregion -->
@@ -749,9 +752,9 @@
     </footer>
     <!-- #endregion -->
     <!-- region modal -->
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
-        <button type="button" class="modal-close-btn">
+        <button type="button" class="modal-close-btn" id="close-btn">
           <svg class="modal-close-icon" width="8" height="8">
             <use href="./images/icons.svg#close"></use>
           </svg>
@@ -828,14 +831,19 @@
                   <use href="./images/icons.svg#chec"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a href="#" class="violet">Privacy Policy</a>
+              <span class="priv-wrp">
+                I accept the terms and conditions of the
+                <a href="#" class="violet">Privacy Policy</a>
+              </span>
             </label>
           </div>
           <button class="modal-form-btn" type="submit">Send</button>
         </form>
       </div>
     </div>
+
+    <script src="./menu.js" defer></script>
+    <script src="./modal.js" defer></script>
   </body>
 </html>
 <!-- endregion -->
